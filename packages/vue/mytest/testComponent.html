@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta>
+    <meta></meta>
+    <title>测试组件</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <template id="tem">
+      <h2>hello world</h2>
+    </template>
+    <script src="../dist/vue.global.js"></script>
+    <script>
+      debugger;
+      Vue.createApp(
+        {
+          template: "#tem"
+        }
+      ).mount("#app")
+    </script>
+  </body>
+</html>
